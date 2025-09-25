@@ -4,51 +4,40 @@
     </head>
     <body>
         <form action="/submit-profile" method="post" enctype="multipart/form-data">
-        <h2>Edit Your Profile</h2>
+        <h2>Modifica il tuo profilo</h2>
 
-        <!-- Profile Photo -->
-        <label>Your profile photo:</label>
-        <input type="file" name="photo"><br><br>
+        <label>La tua foto profilo:</label>
+        <input type="file" name="foto"><br><br>
 
-        <!-- First Name -->
-        <label>Your first name:</label>
-        <input type="text" name="firstName"><br><br>
+        <label>Il tuo nome:</label>
+        <input type="text" name="nome"><br><br>
 
-        <!-- Last Name -->
-        <label>Your last name:</label>
-        <input type="text" name="lastName"><br><br>
+        <label>Il tuo cognome:</label>
+        <input type="text" name="cognome"><br><br>
 
-        <!-- Gender -->
-        <label>Gender:</label>
-        <input type="radio" name="gender" value="female"> Female
-        <input type="radio" name="gender" value="male"> Male<br><br>
+        <label>Sesso:</label>
+        <input type="radio" name="sesso" value="femmina"> Femmina
+        <input type="radio" name="sesso" value="maschio"> Maschio<br><br>
 
-        <!-- Birth Date -->
-        <label>Birth Month:</label>
-        <input type="text" name="birthMonth" placeholder="e.g. January"><br>
+        <label>Mese di nascita:</label>
+        <input type="text" name="MeseNascita" placeholder="es. Gennaio"><br>
 
-        <label>Birth Day:</label>
-        <input type="number" name="birthDay" min="1" max="31"><br>
+        <label>Giorno di nascita:</label>
+        <input type="number" name="GiornoNascita" min="1" max="31"><br>
 
-        <label>Birth Year:</label>
-        <input type="number" name="birthYear" min="1900" max="2025"><br><br>
+        <label>Anno di nascita:</label>
+        <input type="number" name="AnnoNascita" min="1900" max="2025"><br><br>
 
-        <!-- About You -->
-        <label>About You:</label><br>
-        <input type="text" name="about" placeholder="Write something about yourself"><br><br>
+        <label>Riguardo te:</label><br>
+        <input type="text" name="riguardo" placeholder="Scrivi qualcosa riguardo te"><br><br>
 
-        <!-- Website URL -->
-        <label>Your web site URL:</label>
-        <input type="url" name="websiteUrl"><br><br>
+        <label>Il tuo sito web URL:</label>
+        <input type="url" name="sitowebUrl"><br><br>
 
-        <!-- Website Name -->
-        <label>Your web site name:</label>
-        <input type="text" name="websiteName"><br><br>
+        <label>Il nome del tuo sito web:</label>
+        <input type="text" name="Nomesitoweb"><br><br>
 
-        <!-- Submit -->
-        <input type="submit" value="Create Profile >">
-</form>
-
+        <input type="submit" value="Crea Profilo >">
 </form>
 
     </body>
