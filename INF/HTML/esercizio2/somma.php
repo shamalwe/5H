@@ -7,7 +7,7 @@ $operazione = $_POST['operazione'];
 switch ($operazione) 
 {
 	case 'somma':
-		$b = $A + $B;
+		$risultato = $A + $B;
 		echo "somma di $A e $B è uguale a $risultato";
 		break;
 	case 'differenza':
