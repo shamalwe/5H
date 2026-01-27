@@ -14,13 +14,13 @@ $data_nascita = "2005-04-10";
 $email = "mario.rossi@example.com";
 */
 
-$nome = $_POST['Nome'];
-$cognome = $_POST['Cognome'];
-$data_nascita = $_POST['Data'];
+$nome = $_POST['nome'];
+$cognome = $_POST['cognome'];
+$data_nascita = $_POST['data_nascita'];
 $email = $_POST['email'];
 
 // Query SQL con placeholder
-$sql = "INSERT INTO studenti (nome, cognome, data_nascita, email) VALUES (?, ?, ?, ?)";
+$sql = "INSERT INTO studente (nome, cognome, data_nascita, email) VALUES (?, ?, ?, ?)";
 
 // Preparazione della query
 $stmt = $conn->prepare($sql);
